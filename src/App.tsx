@@ -108,7 +108,7 @@ export default function App() {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 relative">
               <div className="absolute inset-0 bg-gold-500/10 mix-blend-overlay z-10" />
               <img 
-                src="../public/jusup.jpg" 
+                src="https://fv5-7.files.fm/thumb_show.php?i=rkh5sf8zrx&view&v=1&PHPSESSID=18ccf157d15e77cadad659532b96287d27bf0b90" 
                 alt="Жусуп Баласагуни" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
