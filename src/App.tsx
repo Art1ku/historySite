@@ -81,10 +81,8 @@ export default function App() {
         </motion.div>
       </section>
 
-      {/* Main Content */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 py-24 space-y-32 md:space-y-48">
         
-        {/* Section 1: Origin */}
         <section className="grid md:grid-cols-2 gap-16 items-center">
           <FadeIn>
             <div className="flex items-center gap-4 mb-6">
@@ -121,7 +119,6 @@ export default function App() {
           </FadeIn>
         </section>
 
-        {/* Section 2: Education */}
         <section>
           <FadeIn className="text-center max-w-3xl mx-auto mb-20">
             <GraduationCap className="text-gold-500 mx-auto mb-6" size={40} strokeWidth={1} />
@@ -152,7 +149,6 @@ export default function App() {
           </FadeIn>
         </section>
 
-        {/* Section 3: State Activity & Kutadgu Bilig */}
         <section className="grid md:grid-cols-12 gap-12">
           <FadeIn className="md:col-span-5 space-y-8">
             <div className="sticky top-32">
@@ -201,7 +197,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Section 4: Philosophy & Ideas */}
         <section>
           <FadeIn className="text-center mb-16">
             <Lightbulb className="text-gold-500 mx-auto mb-6" size={40} strokeWidth={1} />
@@ -241,7 +236,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Section 5: Legacy & Memory */}
         <section className="relative py-20 border-t border-white/10">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#050505] px-4">
             <Star className="text-gold-500" size={32} strokeWidth={1} />
@@ -284,7 +278,6 @@ export default function App() {
 
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-white/5 py-12 text-center text-zinc-600 font-light text-sm">
         <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-4">
           <BookOpen size={24} className="text-gold-500/50" strokeWidth={1} />
